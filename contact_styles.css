@@ -1,0 +1,78 @@
+@import url(/styles.css) ;
+
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(/img/alaska.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-image: linear-gradient(to right, rgba(82, 74, 74, 1), rgba(255, 255, 255, 1)); */
+}
+
+.contact-form-title {
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+    background-color: rgb(122, 122, 122, .6);
+    /* opacity: .5; */
+}
+
+.contact-form-title h1 {
+    font-size: 5em;
+    font-weight: 600;
+    text-shadow: 2px 2px black;
+    /* opacity: none; */
+}
+
+.contact-form-title h2 {
+    font-size: 3em;
+    text-shadow: 2px 2px  2px black;
+}
+
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control {
+    width: 600px;
+    /* background: transparent; */
+    border: 5px solid rgb(201, 199, 199);
+    outline: none;
+    border-bottom: 1px solid grey;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 1em;
+    box-shadow: -5px -5px 10px grey inset;
+    
+}
+
+input {
+    height: 45px;
+}
+
+form textarea {
+    border-bottom-right-radius: 15%;
+}
+
+form .submit {
+    background: #1f1f1f;
+    border-color: transparent;
+    color: white;
+    font-size: 1.25em;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    box-shadow: none;
+}
+
+form .submit:hover {
+  background-color: #e0e0e0;
+  color: black;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
