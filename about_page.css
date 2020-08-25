@@ -1,13 +1,81 @@
 @import url(/styles.css) ;
 
 body {
-    background-image: url(/img/space2.jpg);
+    margin: 0;
+    padding: 0;
+    /* background-image: url(/img/space2.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    color: black;
+    background-color: white;
 }
 
 h1 {
-    color: white;
     text-transform: uppercase;
+}
+
+.flex-container-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    
+}
+
+.flex-item-1 {
+    border: 1px solid white;
+}
+
+.flex-item-1 img {
+    /* display: block; */
+    width: 100%;
+    max-width: auto; /*actual image width*/
+    height: auto; /* maintain aspect ratio*/
+    /* margin: auto; optional centering of image */
+}
+
+
+.flex-item-2 {
+    border: 1px solid white;
+    margin: 1.5em;
+    padding: 10px;
+}
+
+.flex-item-2 P {
+    font-size: 1.5em;
+}
+
+.flex-container-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    
+}
+
+.flex-item-3 {
+    border: 1px solid white;
+    order: 1;
+}
+
+.flex-item-3 img {
+    /* display: block; */
+    width: 100%;
+    max-width: auto; /*actual image width*/
+    height: auto; /* maintain aspect ratio*/
+    /* margin: auto; optional centering of image */
+}
+
+
+.flex-item-4 {
+    border: 1px solid white;
+    margin: 1.5em;
+    padding: 10px;
+}
+
+.flex-item-4 p {
+    font-size: 1.5em;
 }
