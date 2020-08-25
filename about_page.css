@@ -1,2 +1,12 @@
 @import url(/styles.css) ;
 
+body {
+    background-image: url(/img/space2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    color: white;
+}
