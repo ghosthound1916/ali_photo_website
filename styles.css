@@ -169,6 +169,7 @@ ul {
     transition-property: all;
     transition-duration: 1s;
     text-shadow: 2px 2px 4px #000000;
+    text-align: center;
 }
 
 .gallery .pic:hover {
@@ -248,7 +249,7 @@ footer {
     justify-content: center;
     align-content: baseline;
     flex-wrap: nowrap;
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(221, 221, 221);
     max-height: 20%;
     min-height: 10%;
 
