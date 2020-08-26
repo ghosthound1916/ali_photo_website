@@ -266,7 +266,9 @@ footer  p {
 
 footer a img {
     margin-left: 5em;
+    margin-top: 15px;
     align-self: baseline;
+    
 }
 
 /* Media Queries */
