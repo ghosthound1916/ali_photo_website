@@ -148,3 +148,6 @@ while ( i < fruits.length) {
     console.log(fruits[i]);
     i++;
 }
+
+// Array common methods
+console.log('To string', fruits.toString());
