@@ -101,3 +101,50 @@ for (let num = 0; num <= 10; num++) {
     console.log(num);
 }
 
+// Data types
+let yourAge = 18;                               // number
+let yourName = 'Bob';                           // string
+let name = {first: 'Jane', last: 'Doe'};          // object
+let truth = false;                              // Boolean
+let groceries = ['apple', 'banana', 'oranges']; // array
+let random;                                     // undefined
+let nothing = null;                             // value null
+
+console.log(name)
+
+// Strings in Javascript (common methods)
+let fruit = 'banana';
+let moreFruits = 'banana\napple';
+console.log(moreFruits);
+
+console.log(fruit.length);
+console.log(fruit.indexOf('n'));
+console.log(fruit.slice(2,4));
+console.log(fruit.slice(2,6));
+console.log(fruit.replace("ban", '123'));
+console.log(fruit.toUpperCase());
+console.log(fruit.toLowerCase());
+console.log(fruit.charAt(2));
+console.log(fruit[2]);
+let alot_Fruits = 'banana,apple,cherry,grape,lemon';
+console.log(alot_Fruits.split(','));
+
+// Array
+var fruits = ['banana', 'apple', 'orange', 'pineapples'];
+var fruits = new Array('banana', 'apple', 'orange', 'pineapples')
+
+console.log(fruits[2])
+fruits[0] = 'pear';
+console.log(fruits)
+
+
+// Loop trhough array
+for (i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+
+var i = 0;
+while ( i < fruits.length) {
+    console.log(fruits[i]);
+    i++;
+}
