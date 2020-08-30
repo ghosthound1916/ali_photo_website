@@ -1,0 +1,47 @@
+[33mcommit ab827979040d73512d4222aba0e587d863f84c49[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: smokehound <robertmoncure@gmail.com>
+Date:   Wed Aug 26 00:51:32 2020 -0500
+
+    Added javascript testing page
+
+[33mcommit 6d55e664c42f08e103d0f58d442b54ec16bed407[m
+Author: smokehound <robertmoncure@gmail.com>
+Date:   Tue Aug 25 01:13:28 2020 -0500
+
+    created about page
+
+[33mcommit ec4976e9d7c1cec307370cf494193f98b0c4abe8[m
+Author: smokehound <robertmoncure@gmail.com>
+Date:   Mon Aug 24 23:17:42 2020 -0500
+
+    Change footer background color
+
+[33mcommit 1b9b5beabf03a18ea62716af83faec2e343dcfab[m
+Author: smokehound <robertmoncure@gmail.com>
+Date:   Mon Aug 24 23:01:40 2020 -0500
+
+    configured php in visual studio code
+
+[33mcommit 55ce88a9fb0c442d2bb1befd1f40521224206512[m
+Author: smokehound <robertmoncure@gmail.com>
+Date:   Mon Aug 24 22:00:30 2020 -0500
+
+    4th commit
+
+[33mcommit d9825f5ce6c2fbb8045dadd4893d10caf8cf6b97[m
+Author: smokehound <robertmoncure@gmail.com>
+Date:   Mon Aug 24 21:56:30 2020 -0500
+
+    3rd commit
+
+[33mcommit 6093612b943f6f835de6de238649068ac6a10ee2[m
+Author: smokehound <robertmoncure@gmail.com>
+Date:   Mon Aug 24 21:41:49 2020 -0500
+
+    My second commit!
+
+[33mcommit 0c9f9012e62d4712337245bd8d21c75d622ab238[m
+Author: smokehound <robertmoncure@gmail.com>
+Date:   Mon Aug 24 21:31:58 2020 -0500
+
+    My first git commit!
