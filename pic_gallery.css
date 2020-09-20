@@ -1,0 +1,81 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: rgb(221, 221, 221);
+}
+
+/* Picture gallery  */
+div.pic-gallery {
+    
+    width: 100%;
+    height: auto;
+    /* background-color: yellow; */
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-auto-flow: dense;
+    grid-auto-rows: 400px;
+    padding: 1rem;
+    
+}
+
+.pics {
+    /* border: 1px solid #ccc; */
+    max-width: 100%;
+    background-color: black;
+    min-height: 140px;
+    max-height: 400px;
+    background-image: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+
+
+
+#pic1 {
+    background-image: url(/ali_photos/gradutation_pics/i7.jpg);
+    background-size: auto 100%;
+}
+
+#pic2 {
+    background-image: url(/ali_photos/girl1/d2.jpg);
+}
+
+
+#pic3 {
+    background-image: url(/ali_photos/renee/ren12.jpg);
+    background-size: 100% auto;
+}
+#pic4 {
+    background-image: url(/ali_photos/girl3/j10.jpg);
+}
+
+#pic5 {
+    color: red;
+}
+
+#pic6 {
+    color: red;
+}
+#pic7 {
+    color: red;
+}
+
+#pic8 {
+    color: red;
+}
+
+#pic9 {
+    color: red;
+}
+
+#pic10 {
+    color: red;
+}
+

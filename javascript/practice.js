@@ -1,5 +1,5 @@
 console.log('hello');
-//alert('YO!')
+// alert('YO!')
 
 var b = 'smoothie';
 console.log(b);
@@ -8,9 +8,9 @@ var someNumber = 45;
 console.log(someNumber)
 
 
-//var age = prompt('What is your age?');
+// var age = prompt('What is your age?');
 
-//document.getElementById('someText').innerHTML = age;
+document.getElementById('someText').innerHTML = age;
 
 // Numbers in Javascript
 var num1 = 10;
@@ -62,7 +62,7 @@ sumNumbers('10', 10)
 
 
 function sayHello() {
-    document.write('<h1>This is Javascript Baby!</h1>');
+    //document.write('<h1>This is Javascript Baby!</h1>');
 }
 
 sayHello();
@@ -86,15 +86,15 @@ function calulateArea(width, height) {
 var wallOneArea = calulateArea(3, 5);
 var wallTwoArea = calulateArea(8, 5);
 
-document.write(wallOneArea + '<br />');
-document.write(wallTwoArea + '<br />');
+// document.write(wallOneArea + '<br />');
+// document.write(wallTwoArea + '<br />');
 
 // While loops
 var num = 0;
 
 while (num < 10) {
     num += 1;
-    document.write(num + '<br />');
+    // document.write(num + '<br />');
 } 
 
 for (let num = 0; num <= 10; num++) {
@@ -131,11 +131,12 @@ console.log(alot_Fruits.split(','));
 
 // Array
 var fruits = ['banana', 'apple', 'orange', 'pineapples'];
-var fruits = new Array('banana', 'apple', 'orange', 'pineapples')
+var fruits = new Array('banana', 'apple', 'orange', 'pineapples');
 
-console.log(fruits[2])
+console.log(fruits[2]);
 fruits[0] = 'pear';
-console.log(fruits)
+console.log(fruits);
+
 
 
 // Loop trhough array
@@ -151,3 +152,89 @@ while ( i < fruits.length) {
 
 // Array common methods
 console.log('To string', fruits.toString());
+console.log(fruits.join(' - '));
+console.log(fruits, fruits.pop(), fruits);      // Removes last item
+console.log(fruits.push('blackberries'), fruits); // Appends to end
+fruits[fruits.length] = 'new fruit'
+console.log(fruits);
+fruits.shift();             // Removes first element
+console.log(fruits);
+fruits.unshift('kiwi');
+console.log(fruits);        // Add first element to an array
+let vegetables = ['asparagus', 'tomato', 'broccoli'];
+let allGroceries = fruits.concat(vegetables);
+console.log(allGroceries);
+
+for (i = 0; i < allGroceries.length; i++) {
+    console.log(allGroceries[i]);
+}
+
+console.log(allGroceries.slice(1,4));
+console.log(allGroceries.reverse());
+console.log(allGroceries.sort());
+
+let someNumbers = [5, 10, 2, 25, 3, 255, 1, 2, 5, 334, 321, 2];
+console.log(someNumbers.sort(function(a, b) {return a-b})); // Sorting in ascending order
+console.log(someNumbers.sort(function(a, b) {return b-a})); // Sorting in descending order
+
+let emptyArray = new Array();
+for (let num = 0; num < 10; num++) {
+    emptyArray.push(num);
+}
+
+console.log(emptyArray.toString());
+
+// Objects in Javascript
+// Dictionaries in Python
+
+let student = {
+    first: 'Refeh', 
+    last: 'Qazi', 
+    age: 25, 
+    height: 170,
+    studentInfo: function () {
+        return this.first + '\n' + this.last + '\n' + this.age;
+    }
+};
+
+// console.log(student.first);
+// console.log(student.last);
+// student.first = 'notRafeh';
+// console.log(student.first);
+student.age++;
+console.log(student.age);
+console.log(student.studentInfo());
+
+// Conditionals, Control Flows (if else)
+// 18 - 35 is my target demographic
+// && AND
+// || OR
+// var age = prompt('what is your age: ');
+var age = 40;
+
+if ((age >= 18) && (age <= 35)) {
+    status = 'target demo';
+    console.log(status);
+} else {
+    status = 'not my audience';
+    console.log(status);
+}
+
+// Switch statements
+// differentiate between weekday vs. weekend
+// day 0 --> Sunday
+// day 6 --> Saturday -->
+// day 4 --> Thursday --> weekday
+var day = 0;
+switch (day) {
+    case 0:
+        text = 'weekend';
+    case 5:
+        text = 'weekend';
+    case 6:
+        text = 'weekend';
+    default:
+        text = 'weekday';
+}
+s
+console.log(text);
