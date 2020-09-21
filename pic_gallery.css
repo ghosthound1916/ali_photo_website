@@ -8,6 +8,12 @@ body {
     background-color: rgb(221, 221, 221);
 }
 
+.user h1 {
+    margin-top: 0;
+    padding-top: 1rem;
+    /* margin: 1rem 1rem; */
+}
+
 /* Picture gallery  */
 div.pic-gallery {
     
@@ -34,14 +40,14 @@ div.pic-gallery {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80%;
-    border: 3px solid rgb(216, 208, 208);
+    border: 3px solid black;
     border-top-left-radius: 10%;
     border-top-right-radius: 5%;
     border-bottom-right-radius: 5%;
     border-bottom-left-radius: 5%;
     box-shadow: 10px 5px 5px 1px rgb(0, 0, 0, .5);
-    /* transition-duration: .5s;
-    transition-property: border; */
+    transition-duration: .5s;
+    transition-property: border, box-shadow;
 }
 
 /* .pics a p {
@@ -58,7 +64,8 @@ div.pic-gallery {
 } */
 
 .pics:hover {
-    border: 5px solid rgb(0, 0, 0);
+    border: 10px solid white;
+    box-shadow: 10px 5px 5px 1px rgba(0, 0, 0);
 }
 
 .pics h2 {
@@ -106,7 +113,8 @@ div.pic-gallery {
 }
 
 #pic5 {
-    color: red;
+    background-image: url(/ali_photos/Landscapes/rainbow.jpg);
+    background-size: 100% 100%;
 }
 
 #pic6 {
